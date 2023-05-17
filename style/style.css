@@ -1,0 +1,513 @@
+.bir {
+  width: 100%;
+  height: 800px;
+}
+.bir .tepa {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+}
+.bir .tepa p {
+  font-size: 24px;
+}
+.bir .tepa .soz ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+}
+.bir .tepa .rasm {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.bir .tepa .rasm .insta {
+  width: 30px;
+}
+.bir .past {
+  width: 100%;
+  height: 680px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 80px;
+}
+.bir .past img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  text-align: center;
+}
+
+.ikki {
+  width: 100%;
+  height: 680px;
+}
+.ikki .tepa {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 80px 20px 80px;
+  align-items: flex-end;
+}
+.ikki .tepa strong {
+  font-size: 48px;
+}
+.ikki .tepa button {
+  padding: 20px 27px;
+  background-color: #E7FAFE;
+  border: none;
+  border-radius: 5px;
+}
+.ikki .past {
+  width: 100%;
+  height: 480px;
+  display: flex;
+  gap: 40px;
+  padding: 90px 80px;
+}
+.ikki .past .d1 {
+  width: 15%;
+  height: 205px;
+  background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 0px 40px 0px;
+  justify-content: space-between;
+}
+.ikki .past .d1 img {
+  width: 100px;
+  height: 100px;
+}
+
+.uch {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+.uch strong {
+  font-size: 48px;
+}
+
+.tort {
+  width: 100%;
+  height: 1500px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 80px;
+  gap: 40px;
+}
+.tort .ovqat {
+  width: 30%;
+  height: 434px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  border-radius: 30px;
+  padding: 16px;
+}
+.tort .ovqat .d1 {
+  width: 100%;
+  height: 60%;
+  background-image: url(../ovqatlar/ov9.png);
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.tort .ovqat .d1 nav {
+  width: 48px;
+  height: 48px;
+  background-color: white;
+  border-radius: 100%;
+  text-align: center;
+  padding: 17px 0px;
+}
+.tort .ovqat .d2 {
+  width: 100%;
+  height: 40%;
+}
+.tort .ovqat .d2 p {
+  font-size: 24px;
+  margin: 24px 24px 40px 24px;
+}
+.tort .ovqat .d2 img {
+  margin: 0px 0px 24px 24px;
+}
+.tort .ovqat1 {
+  width: 30%;
+  height: 434px;
+  background: linear-gradient(180deg, #357355 0%, #1D483B 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px 20px;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.tort .ovqat1 strong {
+  font-size: 24px;
+  color: white;
+  margin: 0px;
+}
+.tort .ovqat1 img {
+  width: 90%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tort .ovqat1 p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.besh {
+  width: 100%;
+  height: 740px;
+  padding: 20px 80px 0px 80px;
+}
+.besh .bg {
+  width: 100%;
+  height: 100%;
+  background-image: url(../odam/Learn\ More.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  padding: 80px 0px 200px 0px;
+}
+.besh .bg nav {
+  width: 200px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.olti {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.olti strong {
+  font-size: 48px;
+}
+
+.yetti {
+  width: 100%;
+  height: 550px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  display: flex;
+  padding: 80px;
+  gap: 40px;
+}
+.yetti .d1 {
+  width: 24%;
+  height: 445px;
+  background-color: #FFFFFF;
+}
+.yetti .d1 .i1 {
+  padding: 0px 7px;
+  width: 100%;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.yetti .d1 .i1 nav ul {
+  display: flex;
+  flex-direction: column;
+}
+.yetti .d1 .i1 nav ul li {
+  display: flex;
+}
+.yetti .d1 .i1 nav ul li .gol {
+  width: 20px;
+}
+.yetti .d1 .i1 .img {
+  width: 20px;
+  height: 4px;
+  margin: 0px 0px 0px 90px;
+}
+.yetti .d1 .i2 {
+  width: 100%;
+  height: 290px;
+  background-image: url(../odam/Rectangle\ \(2\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding: 10px;
+  justify-content: flex-end;
+}
+.yetti .d1 .i2 img {
+  width: 26px;
+  height: 20px;
+}
+.yetti .d1 .i3 {
+  padding: 0px 7px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+.yetti .d1 .i3 nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.yetti .d1 .i3 nav ul {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  gap: 70px;
+}
+.yetti .d1 .i3 nav ul li {
+  display: flex;
+  gap: 10px;
+}
+.yetti .d1 .i4 {
+  padding: 0px 7px;
+  width: 100%;
+  height: 83.9px;
+}
+.yetti .d1 .i4 nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.yetti .d1 .i4 nav ul li {
+  list-style: none;
+}
+.yetti .d1 .i4 nav ul li strong {
+  font-size: 13px;
+}
+.yetti .d1 .i4 nav ul li p {
+  font-size: 13px;
+}
+
+.sakkiz {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+.sakkiz button {
+  color: #FFFFFF;
+  width: 229px;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 30px;
+}
+.sakkiz button img {
+  width: 40px;
+}
+
+.toqqiz {
+  width: 100%;
+  height: 260px;
+  display: flex;
+  padding: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.toqqiz strong {
+  font-size: 48px;
+}
+
+.on {
+  width: 100%;
+  height: 990px;
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 80px;
+  gap: 40px;
+  background-color: #E5E5E5;
+}
+.on .ohwaw {
+  width: 22%;
+  height: 434px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding: 16px;
+}
+.on .ohwaw .d1 {
+  width: 100%;
+  height: 60%;
+  background-image: url(../qolibketkan/image\ 26.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.on .ohwaw .d1 nav {
+  width: 48px;
+  height: 48px;
+  background-color: white;
+  border-radius: 100%;
+  text-align: center;
+  padding: 17px 0px;
+}
+.on .ohwaw .d2 {
+  width: 100%;
+  height: 40%;
+}
+.on .ohwaw .d2 p {
+  font-size: 24px;
+  margin: 24px 24px 40px 24px;
+}
+.on .ohwaw .d2 img {
+  margin: 0px 0px 24px 24px;
+}
+
+.onbir {
+  width: 100%;
+  height: 770px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+}
+.onbir .tepa {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+  background-color: #E7F9FD;
+  border-radius: 20px 20px 0px 0px;
+}
+.onbir .tepa strong {
+  font-size: 48px;
+}
+.onbir .past {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #E7F9FD;
+}
+.onbir .past nav {
+  width: 480px;
+  height: 80px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 32px;
+  position: relative;
+  margin-top: 100px;
+  border-radius: 30px;
+}
+.onbir .past nav p {
+  font-size: 14px;
+}
+.onbir .past nav button {
+  font-size: 14px;
+  color: white;
+  width: 160px;
+  height: 60px;
+  background-color: black;
+  border-radius: 30px;
+}
+
+.onikki {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.onikki nav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 80px;
+}
+.onikki nav strong {
+  font-size: 24px;
+}
+.onikki nav ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+}
+
+.ohiri {
+  width: 100%;
+  height: 120px;
+  display: flex;
+}
+.ohiri .chap {
+  width: 30%;
+  height: 100%;
+}
+.ohiri .ong {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px 0px 80px;
+}
+.ohiri .ong nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.ohiri .ong .bir {
+  width: 336px;
+  height: 23px;
+}
+.ohiri .ong .ikki {
+  width: 9px;
+  height: 19px;
+}
+.ohiri .ong .uch {
+  width: 22px;
+  height: 17px;
+}
+.ohiri .ong .insta {
+  width: 22px;
+  height: 22px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
